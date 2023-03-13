@@ -12,3 +12,16 @@
 
 string[] array1 = new string[3] {"hello", "2", ":-)"};
 string[] array2 = new string[array1.Length];
+
+void SecondArrayWith(string[] array1, string[] array2)
+{
+    int N = 0;
+    for (int i = 0; i < array1.Length; i++)
+    {
+    if(array1[i].Length <= 3)
+        {
+        array2[N] = array1[i];
+        N++;
+        }
+    }
+}
