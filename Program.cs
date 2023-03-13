@@ -10,3 +10,5 @@
 // Когда условия перестали удовлетворятся, делаем вывод на экран результата.
 
 
+string[] array1 = new string[3] {"hello", "2", ":-)"};
+string[] array2 = new string[array1.Length];
